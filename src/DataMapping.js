@@ -19,7 +19,7 @@
  * @memberof DataMapping
  * @instance
  * @method mapFields
- * @param {Item} item 
+ * @param {Item} item
  * @return {Item} Returns the mapped item.
  * <pre>
  * This is typically used when there is a need to tranform the data before
@@ -52,7 +52,7 @@
  * @memberof DataMapping
  * @instance
  * @method unmapFields
- * @param {Item} item 
+ * @param {Item} item
  * @return {Item} Returns the unmapped item.
  * <pre>
  * This is required when mapFields was used so that we can transform
@@ -84,7 +84,7 @@
  * @memberof DataMapping
  * @instance
  * @method mapFilterCriterion
- * @param {AttributeFilter | CompoundFilter} item 
+ * @param {AttributeFilter | CompoundFilter} item
  * @return {AttributeFilter | CompoundFilter} Returns the mapped filterCriterion.
  * <pre>
  * This is required when mapFields was used and queries are processed. e.g.
@@ -129,7 +129,7 @@
  * @type {Object}
  */
 
- /**
+/**
  * The interface for ItemMetadata.  Note that key is the only mandatory property,
  * implementations can provide additional properties as needed.
  *
@@ -148,7 +148,7 @@
  * @type {any}
  */
 
- /**
+/**
  * The interface for AttributeFilter
  *
  *
@@ -201,7 +201,7 @@
  * @type {any}
  */
 
- /**
+/**
  * The interface for CompoundFilter
  *
  * @export
@@ -214,7 +214,7 @@
  *   <li>$and The filters in the criteria array will be AND'd.</li>
  *   <li>$or The filters in the criteria array will be OR'd.</li>
  * </ul>
- * 
+ *
  * @export
  * @expose
  * @memberof CompoundFilter
@@ -225,7 +225,7 @@
 
 /**
  * Array of Filters on which to apply the operator
- * 
+ *
  * @export
  * @expose
  * @memberof CompoundFilter
